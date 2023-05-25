@@ -1,0 +1,9 @@
+300: file:///C:/Users/chaz/PycharmProjects/byu_eve/KG/
+200: filename content-length last-modified file-type
+201: DAO.py 537 Mon,%2022%20May%202023%2017:00:57%20GMT FILE 
+201: KG_Swap_App.py 576 Mon,%2022%20May%202023%2017:05:52%20GMT FILE 
+201: KG_Swap_Ops.py 1707 Mon,%2022%20May%202023%2017:05:52%20GMT FILE 
+201: Neo4jDAO.py 12411 Mon,%2022%20May%202023%2017:00:57%20GMT FILE 
+201: client_Edge.py 628 Mon,%2022%20May%202023%2017:00:57%20GMT FILE 
+201: client_Node.py 792 Mon,%2022%20May%202023%2017:00:57%20GMT FILE 
+201: kg_versions 0 Mon,%2022%20May%202023%2017:00:57%20GMT DIRECTORY 

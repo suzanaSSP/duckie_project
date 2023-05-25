@@ -8,6 +8,7 @@ password = 'xAIypHcqh3vmH9wxKnh3tfR5Izs8YeTWLL8zVZK31As'
 driver = GraphDatabase.driver(uri, auth=(username, password))
 
 with driver.session() as session:
-    result = session.run('match(Student:Person) match(cs111:class) create (Student)-[:TA_in]->(cs111)')
+    result = session.run('')
     for record in result:
         print(record)
+

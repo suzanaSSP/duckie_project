@@ -12,7 +12,9 @@ query = "match (duedate01:Dates {name: 'May09'})-[:is_duedate_of]->(hw01:Homewor
 with driver.session() as session:
     nodes = session.run(query)
     for node in nodes:
-        print(node)
+        print(type(node))
+
+
 
 
 # Be able to extract the result from neo4j and show it in python

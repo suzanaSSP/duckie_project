@@ -17,3 +17,4 @@ pd.set_option('display.max_colwidth', 200)
 # import wikipedia sentences
 textbook_sentences = pd.read_csv("sentences.csv")
 textbook_sentences.shape()
+

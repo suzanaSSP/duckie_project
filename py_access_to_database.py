@@ -12,3 +12,10 @@ with driver.session() as session:
     for record in result:
         print(record)
 
+# Asking neo4j for the result of my query
+query = "match (duedate01:Dates {name: 'May09'})-[:is_duedate_of]->(hw01:Homework {name:'hw01'}) return duedate01.name"
+with driver.session() as session:
+    nodes = session.run(query)
+    for node in nodes:
+        print(type(node))
+
